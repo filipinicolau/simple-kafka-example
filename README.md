@@ -13,4 +13,4 @@ Criar tópico no Kafka com partição e replicação: `kafka-topics --create --t
 
 Criar producer para o tópico: `kafka-console-producer --broker-list localhost:29092 --topic {nome_topico}`
 
-Criar consumer para tópico: `kafka-console-consumer --topic {nome_topico} --bootstrap-server localhost:9092`
+Criar consumer para tópico: `kafka-console-consumer --topic {nome_topico} --bootstrap-server localhost:29092`
